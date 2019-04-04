@@ -28,7 +28,7 @@ The data was from UCI data repository website and data contained the information
 9. Finally, I tried oversampling using SMOTE but it didn't gave any significant risr in accuracy so, I dropped the idea.
 
 ### What could be done:
-Due to lack of time couldn't to the feature engineering and also do much of exploratory data analysis.
+Due to lack of time couldn't to the feature engineering and also couldn't do much of exploratory data analysis.
 
 ## Business Use of the model:
 My model had around 89% percent accuracy for classifying between whether the customer will take the term deposit or not. Now, Suppose if a company want to sent messages to its customers for their new plan so, If they will use my model then it will predict with 89% percent
