@@ -1,10 +1,12 @@
 # Assignment for data science intern
 
-##Task: I have to develop a machine learning model which will classify whether the customer will subscribe the term deposit or not.
+## Task: 
+I have to develop a machine learning model which will classify whether the customer will subscribe the term deposit or not.
 
-###Data: The data was from UCI data repository website and data contained the information about the customer such as marital status, education background, age, loan etc and target column had yes or no values for all the customers.
+### Data: 
+The data was from UCI data repository website and data contained the information about the customer such as marital status, education background, age, loan etc and target column had yes or no values for all the customers.
 
-###Approach:
+### Approach:
 1. First I did the exploratory data analysis and found that there were a few continuous features such as duration, employment price index, previous which were showing a good statistical significance with target columns. I measured statistical significance with p-values.
 
 2. During EDA, I also found that there were very few values in target column which had "yes". So, I thought to do oversampling of minor values using 'SMOTE'.
@@ -25,10 +27,10 @@
 
 9. Finally, I tried oversampling using SMOTE but it didn't gave any significant risr in accuracy so, I dropped the idea.
 
-###What could be done:
+### What could be done:
 Due to lack of time couldn't to the feature engineering and also do much of exploratory data analysis.
 
-##Business Use of the model:
+## Business Use of the model:
 My model had around 89% percent accuracy for classifying between whether the customer will take the term deposit or not. Now, Suppose if a company want to sent messages to its customers for their new plan so, If they will use my model then it will predict with 89% percent
 accuracy whether the particular customer will take that plan or not and in this way they can remove remove those customer from their list about which model predicted 'no'. 
 
